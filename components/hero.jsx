@@ -50,17 +50,17 @@ const HeroSection = () => {
             </Link>
           </div>
 
-          <div className="hero-image-wrapper mt-5 md:mt-0">
-            <div ref={imageRef}>
-            <Image
-              src="/banner.jpeg"
-              width={1600}
-              height={900}
-              alt="Banner Sensai"
-              className="rounded-2xl shadow-2xl border mx-auto object-cover max-w-4xl md:max-w-6xl"
-              priority
-            />
-            </div>
+           <div className="hero-image-wrapper mt-5 md:mt-0 mb-12">
+             <div ref={imageRef} className="hero-image">
+             <Image
+             src="/banner2.jpeg"
+             width={1600}
+             height={900}
+             alt="Banner Sensai"
+             className="rounded-lg shadow-2xl border mx-auto"
+             priority
+             />
+             </div>
           </div>
         </div>
       </div>

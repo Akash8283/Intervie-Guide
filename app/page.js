@@ -1,3 +1,4 @@
+"use client";
 import HeroSection from "@/components/hero";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
@@ -5,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { faqs } from "@/data/faqs";
 import { features } from "@/data/features";
 import { howItWorks } from "@/data/howItWorks";
-import { testimonial } from "@/data/testimonial";
+import { testimonial } from "@/data/testimonial";        // ✅ Required
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,6 +14,7 @@ import Link from "next/link";
 
 
 export default function Home() {
+
   return (
     <>
       <div className="grid-background"></div>
